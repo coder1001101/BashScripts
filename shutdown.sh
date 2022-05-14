@@ -10,5 +10,5 @@ if [[ ( $username == "username" && $password == "password")]]; then
 echo  Congratulations your are logged In
 else
 echo shouting down your computer
-figlet "Khatam tata bye bye gaya" && sleep 5s; shutdown -h now
+figlet "Khatam tata bye bye gaya" && sleep 5s; shutdown +1 now
 fi
